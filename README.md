@@ -27,3 +27,38 @@ If feedback is received for a ticket, it goes back to 'In progress' and process 
 Once PR is approved, it can be merged into 'main', and deployed to stage env.
 
 Once Staging tests are satisfactory, it can be merged and deployed to prod branch.
+
+
+
+## Server-setup
+
+### Dependencies
+
+First of all you have to install the dependencies, you can do it with the next commands in the terminal:
+
+```
+- yarn
+yarn install
+
+- npm
+npm install
+
+- pnpm
+pnpm install
+```
+
+(note. you have to put one of the three commands to install the dependencies)
+
+### Run the server locally
+
+to run the server locally put in the terminal you next command
+
+```
+npm run dev
+```
+
+This command allows to run the sever in local on `http://localhost:3000`
+
+
+
+
