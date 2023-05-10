@@ -9,7 +9,15 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.6.7",
     "@types/node": "^18",
-    "nuxt": "^3.4.3"
+    "node-sass": "^8.0.0",
+    "nuxt": "^3.4.3",
+    "sass": "^1.62.1",
+    "sass-loader": "^10.4.1"
+  },
+  "dependencies": {
+    "@picocss/pico": "^1.5.10",
+    "@s3rver/nuxt-modal": "^1.1.5"
   }
 }
